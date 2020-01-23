@@ -1,0 +1,450 @@
+body{
+margin:0;
+padding:0;
+font-family: 'Poppins';
+}
+.contenedor{
+width: 90%;
+max-width: 1280px;
+margin: auto;
+}
+.menu{
+background: #fff;
+padding:9px 20px;
+}
+.menu-icon {
+  display: none;
+}
+.menu .contenedor{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header .logo{
+font-size: 23px;
+font-weight: bold;
+}
+nav ul li {
+display: inline-block;
+margin: 0 20px;
+}
+a{
+text-decoration: none;
+}
+
+/*Sección INTRO*/
+#intro{
+background: url(imagenes/back.jpg);
+text-align: center;
+height: 80vh;
+margin-top: -60px;
+background-size: cover;
+background-position: 57% 48%;
+}
+#intro h1{
+font-family: 'Playfair Display', serif;
+font-size: 72px;
+color: #fff;
+font-weight: normal;
+padding-top: 60px;
+}
+#intro p{
+color: #bfbfbf;
+font-size: 18px;
+line-height: 36px;
+width: 65%;
+margin: auto;
+}
+
+#intro .menu{
+text-decoration: none;
+color: #fff;
+border:1px solid #fff;
+padding:9px;
+background: transparent;
+}
+#intro .reservation{
+text-decoration: none;
+color: #fff;
+padding: 9px;
+background: #c39d63;
+}
+#intro .botones{
+margin-top: 50px;
+}
+#intro .botones {
+margin-right: 20px;
+padding:9px 23px;
+}
+
+/*SECCION OUR-STORY*/
+#our-story{
+padding: 90px 0;
+}
+#our-story .contenedor{
+display: flex;
+justify-content: center;
+}
+.our-story{
+color: #bfbfbf;
+letter-spacing: 2px;
+font-weight: 700;
+}
+hr{
+width: 40px;
+float: left;
+border-color: #c29d63;
+}
+#our-story h2, #testimonials h2{
+margin-top: 50px;
+font-size: 48px;
+font-family: 'Playfair Display', serif;
+font-weight: 300;
+}
+#our-story .texto, #testimonials .texto{
+font-size: 17px;
+color: #939393;
+line-height: 30px;
+width: 88%;
+}
+#our-story .izquierda{
+width: 45%;
+}
+
+/*SECCION MENU*/
+#menu{
+background:#1f1f1f;
+}
+#menu .foto{
+background: url(imagenes/cangrejo.png);
+width: 300px;
+height: 285px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#menu .linea1 div,#menu .linea2 div{
+display: inline-block;
+width: 33.1%;
+}
+#menu .linea1, #menu .linea2{
+background: #fff;
+text-align: center;
+}
+#menu li{
+list-style: none;
+}
+#menu .precio{
+color: #c29d62;
+font-size: 24px;
+margin-bottom: 15px;
+}
+#menu .titulo{
+font-family: 'Playfair Display', serif;
+font-size: 24px;
+font-weight: 100;
+}
+#menu .parrafo{
+color: #939393;
+line-height: 30px;
+margin-top: 20px;
+}
+#menu .hongos{
+background: url(imagenes/hongos.png);
+background-repeat: no-repeat;
+background-size: cover;
+position:relative;
+top: -11px;
+left:-14px;
+}
+#menu .peces{
+background: url(imagenes/pez.png);
+background-repeat: no-repeat;
+background-size: cover;
+position:relative;
+top: -11px;
+right:-14px;
+}
+#menu .contenedor{
+max-width: 1130px;
+}
+#menu ul{
+margin:0;
+padding: 0;
+}
+#menu .texto{
+position: relative;
+top: -30px;
+}
+#menu .linea2{
+height: 275px;
+}
+
+/*SECCION TESTIMONIALS*/
+
+#testimonials{
+text-align: center;
+background: #f7f7f7;
+padding: 90px 0;
+}
+#testimonials .titulo{
+color: #bfbfbf;
+letter-spacing: 2px,
+font-weight:700;
+}
+#testimonials hr{
+width: 40px;
+float: none;
+font-weight: 700;
+}
+.contenedor-testimonials{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.testimonials{
+width: 25%;
+text-align: left;
+}
+.testimonials img{
+width: 55%;
+}
+.testimonials .contenedor{
+max-width: 1150px;
+}
+
+/*SECCION CONTACTO*/
+#contacto {
+background: url(imagenes/restaurant.jpg);
+color: #fff;
+text-align: center;
+padding: 90px 0;
+}
+#contacto .contenedor{
+display: flex;
+justify-content: center;
+}
+#contacto .izquierda, #contacto .derecha{
+background:#212F3D;
+/*#1f1f1ff7;*/
+padding: 77px 29px;
+width: 35%;
+}
+#contacto .derecha{
+padding: 99px 8px;
+width: 40%;
+}
+#contacto .izquierda{
+margin-right: 40PX;
+}
+#contacto ul{
+border-bottom: 2px solid #c29d62;
+padding: 0,
+margin:0;
+padding-bottom: 10px;
+margin-bottom: 20px;
+}
+#contacto ul li {
+list-style: none;
+font-size: 15px;
+text-align: center;
+}
+#contacto h2{
+font-family: 'Playfair Display', serif;
+font-size: 32px;
+font-weight: 100;
+}
+#contacto ul li:nth-child(1){
+font-weight: bold;
+}
+#contacto a {
+color: #fff;
+padding: 9px;
+background: #c39d63;
+letter-spacing: 2px;
+display: inline-block;
+margin-top: 20px;
+}
+#contacto h3{
+font-size: 23px;
+font-weight: 100;
+margin: 0;
+}
+#contacto .derecha p{
+opacity: 0.8;
+width: 60%;
+margin: auto;
+}
+#contacto .derecha a{
+padding: 9px 12px;
+}
+#contacto form{
+margin-top: 25px;
+}
+.textos,.emails{
+width: 72% !important;
+border:0 !important;
+background:#2E4053 !important;
+padding:15px !important;
+font-size: 16px !important;
+margin-bottom: 10px !important;
+color: #fff;
+}
+::placeholder {
+color: #cdcdcd;
+}
+::-ms-input-placeholder {
+color: #cdcdcd;
+}
+.submits{
+display: block;
+width: 79%;
+margin: auto;
+border:0;
+background: #c29d63;
+color: #fff;
+padding: 11px 0;
+font-size: 16px;
+}
+footer{
+  background:#2F2F2F;
+  padding: 40px 0;
+  text-align: center;
+}
+footer .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer img{
+  margin: 0 40px;
+  transform: rotate(0);
+  transition: .4s;
+}
+footer img:hover{
+  transform: rotate(360deg);
+  transition: .4s;
+}
+footer p{
+  color: #fff;
+  margin-top: 40px;
+
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    position: absolute;
+    top: 93px;
+    left: 0;
+    background: #000;
+    width: 100%;
+    display: none;
+}
+
+nav ul li {
+  display: block;
+  margin-bottom: 15px;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+.menu-icon {
+  display: block;
+}
+
+header .logo {
+    font-size: 20px;
+}
+
+#intro {
+  margin-top: -35px;
+}
+
+#intro h1 {
+  font-size: 37px;
+}
+
+#intro p {
+    color: #bfbfbf;
+    font-size: 13px;
+    line-height: 29px;
+    width: 100%;
+    margin: auto;
+}
+
+#our-story .contenedor {
+  flex-direction: column;
+}
+
+#our-story .izquierda {
+    width: 100%;
+}
+
+#our-story .derecha img {
+  width: 100%;
+}
+
+#menu .linea1 div, #menu .linea2 div {
+    display: block;
+    width: 100%;
+}
+
+#menu #texto-2 {
+    position: relative;
+    top: 18px;
+}
+
+.linea2 .hongos {
+  width: 100% !important;
+  top: 30px !important;
+left: 0px !important;
+}
+
+#menu {
+    background: #1F1F1F;
+    height: 1625px;
+}
+
+#menu #ultimo {
+  width: 100% !important;
+  top: 52px;
+}
+
+.linea2 .peces {
+  width: 100% !important;
+  top: 25px !important;
+left: 0px  !important;
+}
+
+#menu .linea2 {
+    height: 623px;
+}
+
+.contenedor-testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.testimonials {
+  width: 100%;
+}
+
+#contacto .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contacto .izquierda, #contacto .derecha {
+    width: 81%;
+}
+
+.derecha {
+    width: 98% !important;
+    margin-top: 57px;
+}
+
+}
